@@ -1,21 +1,18 @@
 {
-  "version": "2.9.0",
-  "description": "Generate a brain map of your codebase for LLM context",
-  "homepage": "https://github.com/JordanCoin/codemap",
-  "license": "MIT",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/JordanCoin/codemap/releases/download/v2.9.0/codemap-windows-amd64.zip",
-      "hash": "065a2c0f55814421b45fc84569d416438ae09c54a976641076779e4ae80b22be"
-    }
-  },
-  "bin": "codemap-windows-amd64\\codemap.exe",
-  "checkver": "github",
-  "autoupdate": {
+    "version": "3.0.0",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/JordanCoin/codemap/releases/download/v$version/codemap-windows-amd64.zip"
-      }
-    }
-  }
+        "64bit": {
+            "url": "https://github.com/JordanCoin/codemap/releases/download/v3.0.0/codemap_3.0.0_windows_amd64.zip",
+            "bin": [
+                "codemap.exe"
+            ],
+            "hash": "dbb7622ff54d0c1c69ab2f709851eba3d103ebe51cb71c230e0fa5b2f58895d8"
+        }
+    },
+    "homepage": "https://github.com/JordanCoin/codemap",
+    "license": "MIT",
+    "description": "Generate a brain map of your codebase for LLM context",
+    "depends": [
+        "ast-grep"
+    ]
 }
