@@ -1,12 +1,12 @@
 {
-    "version": "3.1.1",
+    "version": "3.1.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JordanCoin/codemap/releases/download/v3.1.1/codemap_3.1.1_windows_amd64.zip",
+            "url": "https://github.com/JordanCoin/codemap/releases/download/v3.1.2/codemap_3.1.2_windows_amd64.zip",
             "bin": [
                 "codemap.exe"
             ],
-            "hash": "e6250daf6649a89abf44a23dd332672d153e24b58cda1ff9d2ee2e272a722a3f"
+            "hash": "65834d57d9ffb5765b7052fb4d1b8474f835936e6055b75ba24463fc35d80776"
         }
     },
     "homepage": "https://github.com/JordanCoin/codemap",
