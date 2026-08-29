@@ -1,12 +1,12 @@
 {
-    "version": "4.4.2",
+    "version": "4.5.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JordanCoin/codemap/releases/download/v4.4.2/codemap_4.4.2_windows_amd64.zip",
+            "url": "https://github.com/JordanCoin/codemap/releases/download/v4.5.0/codemap_4.5.0_windows_amd64.zip",
             "bin": [
                 "codemap.exe"
             ],
-            "hash": "f4c09261939678b8dd51e61a2713808bcfbd192f407ad63e7cde21dc50f5aecb"
+            "hash": "8efe0181e77ac21fe683878da182ea6b95a5e2f7cd1228ad5ad11896d55f0e56"
         }
     },
     "homepage": "https://github.com/JordanCoin/codemap",
